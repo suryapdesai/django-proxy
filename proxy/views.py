@@ -19,7 +19,7 @@ def proxy_view(request, url, requests_args=None):
     if 'headers' not in requests_args:
         requests_args['headers'] = {}
     if 'data' not in requests_args:
-        requests_args['data'] = request.body
+        requests_args['data'] = request.raw_post_data
     if 'params' not in requests_args:
         requests_args['params'] = QueryDict('', mutable=True)
 

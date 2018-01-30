@@ -7,12 +7,12 @@ import os
 import sys
 
 
-name = 'django-proxy'
+name = 'django-proxy-1.3'
 package = 'proxy'
 description = 'A simple HTTP proxy service as a Django app'
 url = 'https://github.com/mjumbewu/django-proxy'
-author = 'Mjumbe Wawatu Ukweli'
-author_email = 'mjumbewu@gmail.com'
+author = 'django-1.3'
+author_email = 'abcd@test.com'
 license = 'BSD'
 install_requires = ['requests']
 
